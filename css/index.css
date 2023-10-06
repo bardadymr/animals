@@ -17,7 +17,7 @@ a {
 	-moz-appearance: none;
 	-o-appearance: none;
 	appearance: none;
-	background-image: url(source/arrow.png);
+	background-image: url(/source/arrow.png);
 	background-position: 98% center;
 	background-repeat: no-repeat;
 	outline: none;

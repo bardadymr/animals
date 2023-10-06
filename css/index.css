@@ -13,14 +13,8 @@ a {
 
  select {
 	
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	-o-appearance: none;
-	appearance: none;
-	background-image: url(/source/arrow.png);
-	background-position: 98% center;
-	background-repeat: no-repeat;
-	outline: none;
+	-webkit-appearance: auto;
+background-color: rgba(255, 255, 255, 0.01)
 }
 
 .container {

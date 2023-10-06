@@ -12,10 +12,16 @@ a {
     color: inherit; } 
 
  select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-    }
+	
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	background-image: url(source/arrow.png);
+	background-position: 98% center;
+	background-repeat: no-repeat;
+	outline: none;
+}
 
 .container {
     width: 90%;
@@ -453,7 +459,7 @@ a {
     }
 
     .pages {
-        display: flex;
+        display: none;
         flex-direction: column;
         font-size: 16px;
     }

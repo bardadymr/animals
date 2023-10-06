@@ -11,6 +11,12 @@ body {
 a { 
     color: inherit; } 
 
+ select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
 .container {
     width: 90%;
     height: 100%;

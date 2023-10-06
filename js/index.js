@@ -33,13 +33,13 @@ function changeLanguage() {
     document.querySelector('.foot-4').innerHTML = langArr['contact'][hash];
 
     if(hash == 'en') {
-        document.getElementById("flag").src = "/source/britukr.png"
+        document.getElementById("flag").src = "source/britukr.png"
     } else if (hash == 'de') {
-        document.getElementById("flag").src = "/source/gerukr.png"
+        document.getElementById("flag").src = "source/gerukr.png"
     } else if (hash == 'es') {
-        document.getElementById("flag").src = "/source/spainukr.png"
+        document.getElementById("flag").src = "source/spainukr.png"
     } else {
-        document.getElementById("flag").src = "/source/ukr.png"
+        document.getElementById("flag").src = "source/ukr.png"
     }
 
     
